@@ -68,8 +68,8 @@ header{
 
 header nav {
  display: flex;
- justify-content: space-between;
- align-content: center;
+ justify-content: space-around;
+ align-items: center;
  width: 691px;
  vertical-align: top;
  margin-top: 35px;
@@ -90,9 +90,7 @@ header nav a:first-child {
 header nav a:last-child {
  margin-right: 0;
 }
-header .logo {
- margin-top: 25px;
-}
+
 /* cta */
 .cta .cta-text {
  display: inline-block;
@@ -141,23 +139,19 @@ header .logo {
  margin-top: 45px;
 }
 .main-content .bottom-content {
- margin-top: 37px;
- padding: 0 10px;
-}
-.main-content .bottom-content .text-content {
- width: 275px;
- display: flex;
- flex-direction: row;
- justify-content: space-between;
- margin-right: 12px;
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    margin-top: 37px;
+    padding: 0 10px;
 }
 
-.text-content {
+.bottom-content {
 	display:flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
-}
+
 .main-content .bottom-content .text-content:last-child {
  margin-right: 0;
 }
@@ -173,4 +167,34 @@ footer {
  margin: 32px 0;
  text-align: center;
  font-size: 14px;
+}
+
+/*css services starts here*/
+
+button {
+    background: white;
+    vertical-align: top;
+    margin-top: 6px;
+    padding: 8px 44px;
+    font-size: 17px;
+    border: 1px solid black;
+    cursor: pointer;
+   }
+button:hover {
+    background: black;
+    color: white;
+   }
+
+.desc-box{
+    border:1px solid black;
+    background: lightgray;
+    display: flex;
+
+}
+
+    .services-info-img{
+    display: flex;
+    width:80%;
+    align-content: right;
+    margin-top: 45px;   
 }
