@@ -181,22 +181,17 @@ ul{
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	margin: 12px 28px;
-
+	padding-top: 20px;
+	
 }
 
 .boxes{
 	border: 1px solid black;
-	text-align: center;
+	
 	padding: 40px 40px;
-	width: 40%;
-	background-color: lightgray}
-
-
-.boxes{
-	display:flex;
-	flex-wrap: wrap;
-	justify-content: left;
+	width: 48%;
+	background-color:#EEE;
+	margin: 10px 0;
 
 }
 .middle-content{
@@ -204,12 +199,24 @@ ul{
 	flex-wrap: wrap;
 	text-align: left;
 	margin: 20px;
-	justify-content: left;
-	
+	justify-content: space-between;
 }
 
 .middle-content{
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	padding: 10px;
+}
+
+.bottom-content img{
+	width:100%;
+}
+
+button{
+	margin-top: 20px;
+}
+
+.top-services{
+	text-align: left;
+	margin: 20px;
 }
