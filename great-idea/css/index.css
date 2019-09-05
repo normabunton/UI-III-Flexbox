@@ -159,7 +159,7 @@ footer {
 	text-align: center;
 	margin-bottom: 50px;
 }
-/* css services markup */
+/*************** css services markup ****************/
 ul{
 	text-align: left;
 	margin-top: 30px;
@@ -190,17 +190,26 @@ ul{
 	text-align: center;
 	padding: 40px 40px;
 	width: 40%;
-	background-color: lightgray
-}
+	background-color: lightgray}
+
+
 .boxes{
 	display:flex;
 	flex-wrap: wrap;
+	justify-content: left;
+
 }
 .middle-content{
 	display: flex;
 	flex-wrap: wrap;
 	text-align: left;
 	margin: 20px;
-	justify-content: space-around;
-	justify-content: space-between;
+	justify-content: left;
+	
+}
+
+.middle-content{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 10px;
 }
