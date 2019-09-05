@@ -220,3 +220,14 @@ button{
 	text-align: left;
 	margin: 20px;
 }
+
+
+/**********product page css ******/
+
+.product-img{
+	display: flex;
+	width:100%;
+
+}
+
+
